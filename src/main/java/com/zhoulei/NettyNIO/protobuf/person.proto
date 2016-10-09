@@ -1,0 +1,11 @@
+option java_package = "com.zhoulei.NettyNIO.protobuf.model";
+option java_outer_classname = "PersonPro";
+
+message Preson{
+required string name = 1;
+required int32 age = 2;
+required string hir = 3;
+required int64 id = 4;
+repeated int32 list=5;
+optional string context=6;
+}
